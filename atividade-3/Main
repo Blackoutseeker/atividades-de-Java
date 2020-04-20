@@ -1,0 +1,15 @@
+package atividades;
+import java.util.Scanner;
+public class Atividades {
+    public static void main(String[] args) {
+        Scanner in = new Scanner (System.in);
+        Livro livro = new Livro();
+        livro.titulo = "Redes de computadoes";
+        livro.autor = "Gabriel Torres";
+        livro.genero = "T.I.";
+        livro.paginas = 770;
+        livro.abrirLivro();
+        livro.lerLivro();
+        livro.fecharLivro();
+    }
+}
