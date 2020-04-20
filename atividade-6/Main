@@ -1,0 +1,25 @@
+package atividades;
+public class Classe {
+    private String personagem;
+    private int poderDeLuta;
+    private String saga;
+    
+    public String getPersonagem() {
+        return personagem;
+    }
+    public void setPersonagem(String personagem) {
+        this.personagem = personagem;
+    }
+    public int getPoderDeLuta() {
+        return poderDeLuta;
+    }
+    public void setPoderDeLuta(int poderDeLuta) {
+        this.poderDeLuta = poderDeLuta;
+    }
+    public String getSaga() {
+        return saga;
+    }
+    public void setSaga(String saga) {
+        this.saga = saga;
+    }
+}
