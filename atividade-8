@@ -1,0 +1,1 @@
+Atributos públicos são mais dinâmicos em relação aos privados, sem a necessidade de funções (getters e setters) para modifica-los, já os atributos privados necessitam de funções para serem modificados em classes externas. Os atributos protegidos são mais restritos, podendo ser somente herdados.
