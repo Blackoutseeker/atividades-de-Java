@@ -1,0 +1,19 @@
+package atividades;
+public class Livro {
+    // atributos
+    String titulo;
+    String autor;
+    int paginas;
+    String genero;
+    
+    // métodos
+    public void abrirLivro() {
+        System.out.println("Livro aberto!");
+    }
+    public void lerLivro() {
+        System.out.println("Lendo livro!");
+    }
+    public void fecharLivro() {
+        System.out.println("Livro fechado!");
+    }
+}
