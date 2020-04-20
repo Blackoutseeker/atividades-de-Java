@@ -1,1 +1,36 @@
-
+package atividades;
+import java.util.Scanner;
+public class Atividades {
+    public static void main(String[] args) {
+        Scanner in = new Scanner (System.in);
+        int option;
+        int num1;
+        int num2;
+        System.out.println("Calculadora");
+        System.out.println("\n 1) Soma");
+        System.out.println(" 2) Subtração");
+        System.out.println(" 3) Divisão");
+        System.out.println(" 4) Multiplicação");
+        System.out.print("\nQual opção? ");
+        option = in.nextInt();
+        System.out.print("Digite o primeiro número: ");
+        num1 = in.nextInt();
+        System.out.print("Digite o segundo número: ");
+        num2 = in.nextInt();
+        switch(option) {
+            case 1:
+                num1 = num1 + num2;
+            break;
+            case 2:
+                num1 = num1 - num2;
+            break;
+            case 3:
+                num1 = num1 / num2;
+            break;
+            case 4:
+                num1 = num1 * num2;
+            break;
+        }
+        System.out.println("O resultado é " + num1);
+    }
+}
